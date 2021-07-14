@@ -28,3 +28,18 @@ Once you know that your barell jack is proper, you can proceed!
 
 ## Power regulation
 Before plugging the powersupply into the barell jack, remove this jumper
+![remove jumper](https://github.com/Sasisekhar/UP11/blob/main/Pictures/Remove%20jumper.jpg)
+
+Once you've removed the jumper, power the board using the powersupply.
+Once powered, use a multimeter in the voltage setting to measure the voltage across these 2 point:-
+* The positive probe going to the bottom pin of the header (when the board is oriented in such a way that the NFC ports are at the top/ farthest from you and the keypad port is in the bottom/ closest to you)
+* The negative probe goes to pin 3 (middle pin) of the voltage regulator
+As shown in the figure:-
+![test voltage](https://github.com/Sasisekhar/UP11/blob/main/Pictures/Test%20voltage.jpg)
+
+The voltage reading should read between 5v and 9v ideally 7v.
+
+You can adjust this voltage using the *DON'T ADJUST* potentiometer, but as the name suggests, **DO NOT ADJUST UNLESS ABSOLUTELY NECESSARY**
+
+Once you're done you can move ahead to the next step!
+
